@@ -1,0 +1,35 @@
+{
+  "name": "js-playground",
+  "version": "1.0.0",
+  "description": "Simple playground using Codi.vim",
+  "author": "Oskar Grunning <oskargrunning@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/sQVe/js-playground#js-playground",
+  "repository": "github:sQVe/js-playground",
+  "bugs": "https://github.com/sQVe/js-playground/issues",
+  "keywords": [
+    "codi.vim",
+    "javascript",
+    "playground",
+    "repl"
+  ],
+  "engines": {
+    "node": ">= 8"
+  },
+  "devDependencies": {
+    "@types/node": "^10.12.0",
+    "@types/ramda": "^0.25.40",
+    "@types/sanctuary": "^0.14.2",
+    "eslint": "~5.8.0",
+    "eslint-config-sqve": "~1.7.0",
+    "eslint-plugin-import": "~2.14.0",
+    "eslint-plugin-jsx-a11y": "~6.1.2",
+    "eslint-plugin-react": "~7.11.1",
+    "prettier": "~1.14.3"
+  },
+  "dependencies": {
+    "fluture": "^10.2.0",
+    "ramda": "~0.25.0",
+    "sanctuary": "^0.15.0"
+  }
+}
