@@ -1,14 +1,13 @@
 {
   "name": "js-playground",
   "version": "1.0.0",
-  "description": "Simple playground using Codi.vim",
+  "description": "Simple JavaScript playground",
   "author": "Oskar Grunning <oskargrunning@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/sQVe/js-playground#js-playground",
   "repository": "github:sQVe/js-playground",
   "bugs": "https://github.com/sQVe/js-playground/issues",
   "keywords": [
-    "codi.vim",
     "javascript",
     "playground",
     "repl"
@@ -16,19 +15,29 @@
   "engines": {
     "node": ">= 8"
   },
+  "scripts": {
+    "clean": "nodemon boxes/clean.js",
+    "fp": "nodemon boxes/fp.js"
+  },
   "devDependencies": {
     "@types/node": "^10.12.0",
-    "@types/ramda": "^0.25.40",
+    "@types/ramda": "^0.25.41",
     "@types/sanctuary": "^0.14.2",
-    "eslint": "~5.8.0",
-    "eslint-config-sqve": "~1.7.0",
-    "eslint-plugin-import": "~2.14.0",
-    "eslint-plugin-jsx-a11y": "~6.1.2",
-    "eslint-plugin-react": "~7.11.1",
+    "eslint": "^5.8.0",
+    "eslint-config-sqve": "^2.0.0",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.18.5",
     "prettier": "~1.14.3"
   },
   "dependencies": {
+    "crocks": "^0.11.1",
     "fluture": "^10.2.0",
+    "oakdex-pokedex": "^0.2.2",
     "ramda": "~0.25.0",
     "sanctuary": "^0.15.0"
   }

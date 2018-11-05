@@ -1,8 +1,45 @@
 {
   "extends": ["eslint-config-sqve"],
+  "plugins": ["fp"],
   "rules": {
     "no-console": 0,
     "no-unused-expressions": 0,
     "no-unused-vars": 0
-  }
+  },
+  "overrides": [
+    {
+      "files": ["boxes/fp.js"],
+      "env": { "browser": true, "es6": true, "node": true },
+      "rules": {
+        "fp/no-arguments": "error",
+        "fp/no-class": "error",
+        "fp/no-delete": "error",
+        "fp/no-events": "error",
+        "fp/no-get-set": "error",
+        "fp/no-let": "error",
+        "fp/no-loops": "error",
+        "fp/no-mutating-assign": "error",
+        "fp/no-mutating-methods": "error",
+        "fp/no-mutation": [
+          "error",
+          {
+            "commonjs": true,
+            "exceptions": [
+              { "property": "propTypes" },
+              { "property": "defaultProps" }
+            ]
+          }
+        ],
+        "fp/no-nil": "error",
+        "fp/no-proxy": "error",
+        "fp/no-rest-parameters": "error",
+        "fp/no-this": "error",
+        "fp/no-throw": "error",
+        "fp/no-unused-expression": "off",
+        "fp/no-valueof-field": "error",
+        "func-call-spacing": ["error", "always", { "allowNewlines": true }],
+        "import/first": "off"
+      }
+    }
+  ]
 }
