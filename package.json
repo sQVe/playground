@@ -20,24 +20,24 @@
     "fp": "nodemon boxes/fp.js"
   },
   "devDependencies": {
-    "@types/node": "~10.12.12",
-    "@types/ramda": "~0.25.43",
+    "@types/node": "~10.12.18",
+    "@types/ramda": "~0.25.46",
     "@types/sanctuary": "^0.14.2",
-    "eslint": "~5.11.1",
-    "eslint-config-sqve": "~2.0.1",
+    "eslint": "~5.12.0",
+    "eslint-config-sqve": "~2.0.2",
     "eslint-plugin-fp": "~2.3.0",
     "eslint-plugin-import": "~2.14.0",
-    "eslint-plugin-node": "~8.0.0",
+    "eslint-plugin-node": "~8.0.1",
     "eslint-plugin-promise": "~4.0.1",
-    "eslint-plugin-react": "~7.12.2",
+    "eslint-plugin-react": "~7.12.3",
     "eslint-plugin-standard": "~4.0.0",
-    "nodemon": "~1.18.8",
+    "nodemon": "~1.18.9",
     "prettier": "~1.15.3"
   },
   "dependencies": {
     "crocks": "~0.11.1",
     "fluture": "~10.3.0",
-    "oakdex-pokedex": "~0.2.2",
+    "oakdex-pokedex": "~0.3.0",
     "ramda": "~0.26.1",
     "sanctuary": "~0.15.0"
   }
