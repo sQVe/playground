@@ -16,8 +16,8 @@
     "node": ">= 8"
   },
   "scripts": {
-    "clean": "nodemon boxes/clean.js",
-    "fp": "nodemon boxes/fp.js"
+    "clean": "nodemon --signal SIGHUP boxes/clean.js",
+    "fp": "nodemon --signal SIGHUP boxes/fp.js"
   },
   "devDependencies": {
     "@types/node": "~10.12.18",
