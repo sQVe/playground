@@ -21,23 +21,24 @@
   },
   "devDependencies": {
     "@types/node": "~10.12.18",
-    "@types/ramda": "~0.25.46",
+    "@types/ramda": "~0.25.47",
     "@types/sanctuary": "^0.14.2",
-    "eslint": "~5.12.0",
-    "eslint-config-sqve": "~2.0.2",
+    "babel-eslint": "~10.0.1",
+    "eslint": "~5.12.1",
+    "eslint-config-sqve": "~2.1.0",
     "eslint-plugin-fp": "~2.3.0",
     "eslint-plugin-import": "~2.14.0",
     "eslint-plugin-node": "~8.0.1",
     "eslint-plugin-promise": "~4.0.1",
-    "eslint-plugin-react": "~7.12.3",
+    "eslint-plugin-react": "~7.12.4",
     "eslint-plugin-standard": "~4.0.0",
     "nodemon": "~1.18.9",
-    "prettier": "~1.15.3"
+    "prettier": "~1.16.1"
   },
   "dependencies": {
     "crocks": "~0.11.1",
-    "fluture": "~10.3.0",
-    "oakdex-pokedex": "~0.3.0",
+    "fluture": "~10.3.1",
+    "oakdex-pokedex": "~0.4.1",
     "ramda": "~0.26.1",
     "sanctuary": "~0.15.0"
   }
