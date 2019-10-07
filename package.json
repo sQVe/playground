@@ -1,12 +1,12 @@
 {
-  "name": "js-playground",
+  "name": "playground",
   "version": "1.0.0",
   "description": "Simple JavaScript playground",
   "author": "Oskar Grunning <oskargrunning@gmail.com>",
   "license": "MIT",
-  "homepage": "https://github.com/sQVe/js-playground#js-playground",
-  "repository": "github:sQVe/js-playground",
-  "bugs": "https://github.com/sQVe/js-playground/issues",
+  "homepage": "https://github.com/sQVe/playground#playground",
+  "repository": "github:sQVe/playground",
+  "bugs": "https://github.com/sQVe/playground/issues",
   "keywords": [
     "javascript",
     "playground",
@@ -16,8 +16,10 @@
     "node": ">= 8"
   },
   "scripts": {
-    "clean": "nodemon --signal SIGHUP boxes/clean.js",
-    "fp": "nodemon --signal SIGHUP boxes/fp.js"
+    "clean.js": "nodemon --signal SIGHUP boxes/clean.js",
+    "clean.ts": "nodemon --exec 'ts-node' --signal SIGHUP boxes/clean.ts",
+    "fp.js": "nodemon --signal SIGHUP boxes/fp.js",
+    "fp.ts": "nodemon --exec 'ts-node' --signal SIGHUP boxes/fp.ts"
   },
   "devDependencies": {
     "@types/node": "^12.0.0",
@@ -36,6 +38,7 @@
     "eslint-plugin-standard": "~4.0.0",
     "nodemon": "~1.19.0",
     "prettier": "~1.18.0",
+    "ts-node": "~8.4.0",
     "typescript": "~3.6.0"
   },
   "dependencies": {

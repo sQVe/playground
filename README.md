@@ -1,3 +1,3 @@
-# js-playground
+# playground
 
 Simple JavaScript playground.
