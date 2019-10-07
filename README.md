@@ -1,3 +1,3 @@
 # playground
 
-A playground for JavaScript and Typescript!
+A playground for JavaScript and TypeScript!
