@@ -2,7 +2,7 @@
   "extends": ["eslint-config-sqve"],
   "plugins": ["fp"],
   "rules": {
-    "no-console": 0,
+    "@typescript-eslint/no-unused-vars": 0,
     "no-unused-expressions": 0,
     "no-unused-vars": 0
   },
@@ -11,7 +11,7 @@
       "files": ["boxes/fp.js"],
       "extends": ["eslint-config-sqve/fp"],
       "rules": {
-        "no-console": 0,
+        "@typescript-eslint/no-unused-vars": 0,
         "no-unused-expressions": 0,
         "no-unused-vars": 0
       }
