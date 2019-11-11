@@ -46,6 +46,6 @@
     "fluture": "~11.0.0",
     "oakdex-pokedex": "~0.4.0",
     "ramda": "~0.26.0",
-    "sanctuary": "~2.0.0"
+    "sanctuary": "~2.0.1"
   }
 }
