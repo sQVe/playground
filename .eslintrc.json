@@ -8,7 +8,7 @@
   },
   "overrides": [
     {
-      "files": ["boxes/fp.js"],
+      "files": ["boxes/fp.js", "boxes/fp.ts"],
       "extends": ["eslint-config-sqve/fp"],
       "rules": {
         "@typescript-eslint/no-unused-vars": 0,
