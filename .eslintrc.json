@@ -3,6 +3,7 @@
   "plugins": ["fp"],
   "rules": {
     "@typescript-eslint/no-unused-vars": 0,
+    "import/first": 0,
     "no-unused-expressions": 0,
     "no-unused-vars": 0
   },
