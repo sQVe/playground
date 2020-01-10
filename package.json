@@ -27,8 +27,8 @@
     "@types/node": "^13.1.4",
     "@types/ramda": "^0.26.0",
     "@types/sanctuary": "^0.14.0",
-    "@typescript-eslint/eslint-plugin": "~2.14.0",
-    "@typescript-eslint/parser": "~2.14.0",
+    "@typescript-eslint/eslint-plugin": "~2.15.0",
+    "@typescript-eslint/parser": "~2.15.0",
     "babel-eslint": "~10.0.0",
     "eslint": "~6.8.0",
     "eslint-config-sqve": "~2.6.0",
@@ -40,13 +40,13 @@
     "eslint-plugin-standard": "^4.0.0",
     "nodemon": "~2.0.2",
     "prettier": "~1.19.0",
-    "ts-node": "~8.5.0",
+    "ts-node": "~8.6.0",
     "typescript": "~3.7.4"
   },
   "dependencies": {
     "crocks": "~0.12.0",
-    "fluture": "~12.0.0",
-    "fp-ts": "~2.3.1",
+    "fluture": "~12.1.0",
+    "fp-ts": "~2.4.0",
     "ramda": "~0.26.0",
     "sanctuary": "~2.0.0"
   }
