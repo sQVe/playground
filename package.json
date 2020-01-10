@@ -13,8 +13,9 @@
     "repl"
   ],
   "engines": {
-    "node": ">= 8"
+    "node": ">= 10"
   },
+  "type": "module",
   "scripts": {
     "clean.js": "nodemon --signal SIGHUP boxes/clean.js",
     "clean.ts": "nodemon --exec 'ts-node' --signal SIGHUP boxes/clean.ts",

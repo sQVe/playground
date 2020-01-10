@@ -5,9 +5,10 @@
     "baseUrl": ".",
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "esnext",
+    "module": "commonjs",
     "moduleResolution": "node",
     "noEmit": true,
+    "noImplicitAny": false,
     "resolveJsonModule": true,
     "strict": true,
     "target": "esnext"
