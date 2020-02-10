@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@types/node": "^13.7.0",
-    "@types/ramda": "^0.26.40",
+    "@types/ramda": "^0.26.41",
     "@types/sanctuary": "^0.14.0",
     "@typescript-eslint/eslint-plugin": "~2.19.0",
     "@typescript-eslint/parser": "~2.19.0",
