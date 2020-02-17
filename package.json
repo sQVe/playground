@@ -27,7 +27,7 @@
     "@types/node": "^13.7.0",
     "@types/ramda": "^0.26.41",
     "@types/sanctuary": "^0.14.0",
-    "@typescript-eslint/eslint-plugin": "~2.19.0",
+    "@typescript-eslint/eslint-plugin": "~2.19.2",
     "@typescript-eslint/parser": "~2.19.0",
     "babel-eslint": "~10.0.0",
     "eslint": "~6.8.0",
