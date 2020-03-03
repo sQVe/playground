@@ -27,8 +27,8 @@
     "@types/node": "^13.7.7",
     "@types/ramda": "^0.26.43",
     "@types/sanctuary": "^0.14.0",
-    "@typescript-eslint/eslint-plugin": "~2.20.0",
-    "@typescript-eslint/parser": "~2.20.0",
+    "@typescript-eslint/eslint-plugin": "~2.22.0",
+    "@typescript-eslint/parser": "~2.22.0",
     "babel-eslint": "~10.0.0",
     "eslint": "~6.8.0",
     "eslint-config-sqve": "~2.6.0",
@@ -41,7 +41,7 @@
     "nodemon": "~2.0.2",
     "prettier": "~1.19.0",
     "ts-node": "~8.6.2",
-    "typescript": "~3.7.5"
+    "typescript": "~3.8.0"
   },
   "dependencies": {
     "crocks": "~0.12.0",
