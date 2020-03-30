@@ -24,7 +24,7 @@
     "lint": "eslint '{**/*,*}.{js,jsx,ts,tsx}'"
   },
   "devDependencies": {
-    "@types/node": "^13.9.1",
+    "@types/node": "^13.9.5",
     "@types/ramda": "^0.26.44",
     "@types/sanctuary": "^0.14.0",
     "@typescript-eslint/eslint-plugin": "~2.22.0",
