@@ -17,9 +17,9 @@
   },
   "type": "module",
   "scripts": {
-    "clean.js": "nodemon --signal SIGHUP boxes/clean.js",
+    "clean.js": "nodemon --signal SIGHUP --experimental-modules boxes/clean.js",
     "clean.ts": "nodemon --exec 'ts-node' --signal SIGHUP boxes/clean.ts",
-    "fp.js": "nodemon --signal SIGHUP boxes/fp.js -- --experimental-modules",
+    "fp.js": "nodemon --signal SIGHUP --experimental-modules boxes/fp.js",
     "fp.ts": "nodemon --exec 'ts-node' --signal SIGHUP boxes/fp.ts",
     "lint": "eslint '{**/*,*}.{js,jsx,ts,tsx}'"
   },
