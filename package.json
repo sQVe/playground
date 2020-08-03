@@ -46,7 +46,7 @@
   "dependencies": {
     "crocks": "~0.12.0",
     "fluture": "~12.2.1",
-    "fp-ts": "~2.5.4",
+    "fp-ts": "~2.7.1",
     "ramda": "~0.27.0",
     "sanctuary": "~3.0.0"
   }
