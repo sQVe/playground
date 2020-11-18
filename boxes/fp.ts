@@ -3,8 +3,8 @@
 //  ╹  ╹      ╹ ┗━┛
 
 import C from 'crocks'
-import FP from 'fp-ts'
 import Future from 'fluture'
+import FP from 'fp-ts'
 import R from 'ramda'
 import S from 'sanctuary'
 
