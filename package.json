@@ -18,9 +18,9 @@
   "type": "module",
   "scripts": {
     "clean.js": "nodemon --signal SIGHUP --experimental-modules boxes/clean.js",
-    "clean.ts": "ts-node-dev --respawn boxes/clean.ts",
+    "clean.ts": "ts-node-dev --respawn -r esm boxes/clean.ts",
     "fp.js": "nodemon --signal SIGHUP --experimental-modules boxes/fp.js",
-    "fp.ts": "ts-node-dev --respawn boxes/fp.ts",
+    "fp.ts": "ts-node-dev --respawn -r esm boxes/fp.ts",
     "lint": "eslint '{**/*,*}.{js,jsx,ts,tsx}'"
   },
   "devDependencies": {
@@ -45,6 +45,7 @@
   },
   "dependencies": {
     "crocks": "~0.12.0",
+    "esm": "~3.2.25",
     "fluture": "~13.0.0",
     "fp-ts": "~2.8.6",
     "ramda": "~0.27.0",

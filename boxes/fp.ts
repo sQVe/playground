@@ -4,7 +4,7 @@
 
 import C from 'crocks'
 import Future from 'fluture'
-import FP from 'fp-ts'
+import * as FP from 'fp-ts'
 import R from 'ramda'
 import S from 'sanctuary'
 
@@ -15,3 +15,4 @@ export { C, FP, Future, R, S }
 console.clear()
 
 // ----- INSERT CODE BELOW -----
+
