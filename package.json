@@ -17,37 +17,26 @@
   },
   "type": "module",
   "scripts": {
-    "clean.js": "nodemon --signal SIGHUP --experimental-modules boxes/clean.js",
-    "clean.ts": "ts-node-dev --respawn -r esm boxes/clean.ts",
-    "fp.js": "nodemon --signal SIGHUP --experimental-modules boxes/fp.js",
-    "fp.ts": "ts-node-dev --respawn -r esm boxes/fp.ts",
+    "javascript.js": "nodemon --signal SIGHUP --experimental-modules boxes/javascript.js",
+    "typescript.ts": "ts-node-dev --respawn --transpile-only -r esm boxes/typescript.ts",
     "lint": "eslint '{**/*,*}.{js,jsx,ts,tsx}'"
   },
   "devDependencies": {
-    "@types/node": "^14.14.41",
-    "@types/ramda": "^0.27.40",
-    "@types/sanctuary": "^3.0.3",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "@typescript-eslint/parser": "^4.22.0",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.25.0",
-    "eslint-config-sqve": "^2.15.11",
-    "eslint-plugin-fp": "^2.3.0",
-    "eslint-plugin-import": "^2.22.0",
+    "@types/node": "^15.12.5",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.32.0",
+    "eslint-config-sqve": "^3.0.4",
+    "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-node": "^11.0.0",
     "eslint-plugin-promise": "^4.2.0",
-    "eslint-plugin-react": "^7.23.2",
-    "nodemon": "^2.0.0",
-    "prettier": "^2.2.1",
-    "ts-node-dev": "^1.1.1",
-    "typescript": "^4.2.4"
+    "eslint-plugin-react": "^7.24.0",
+    "nodemon": "^2.0.12",
+    "prettier": "^2.3.2",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.3.5"
   },
   "dependencies": {
-    "crocks": "~0.12.0",
-    "esm": "~3.2.25",
-    "fluture": "~14.0.0",
-    "fp-ts": "~2.10.4",
-    "ramda": "~0.27.0",
-    "sanctuary": "~3.1.0"
+    "esm": "~3.2.25"
   }
 }

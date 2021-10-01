@@ -1,21 +1,11 @@
 {
-  "extends": ["eslint-config-sqve"],
-  "plugins": ["fp"],
+  "extends": [
+    "eslint-config-sqve"
+  ],
   "rules": {
     "@typescript-eslint/no-unused-vars": 0,
     "import/first": 0,
     "no-unused-expressions": 0,
     "no-unused-vars": 0
-  },
-  "overrides": [
-    {
-      "files": ["boxes/fp.js", "boxes/fp.ts"],
-      "extends": ["eslint-config-sqve/fp"],
-      "rules": {
-        "@typescript-eslint/no-unused-vars": 0,
-        "no-unused-expressions": 0,
-        "no-unused-vars": 0
-      }
-    }
-  ]
+  }
 }
