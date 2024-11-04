@@ -13,5 +13,5 @@
     "strict": true,
     "target": "esnext"
   },
-  "include": ["boxes"]
+  "include": ["src"]
 }

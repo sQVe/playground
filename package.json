@@ -1,7 +1,7 @@
 {
   "name": "playground",
-  "version": "1.1.0",
-  "description": "Simple JavaScript playground",
+  "version": "2.0.0",
+  "description": "Simple TypeScript playground",
   "author": "Oskar Grunning <oskargrunning@gmail.com>",
   "license": "MIT",
   "homepage": "https://github.com/sQVe/playground#playground",
@@ -13,30 +13,18 @@
     "repl"
   ],
   "engines": {
-    "node": ">= 10"
+    "node": ">= 20"
   },
   "type": "module",
   "scripts": {
-    "javascript.js": "nodemon --signal SIGHUP --experimental-modules boxes/javascript.js",
-    "typescript.ts": "ts-node-dev --respawn --transpile-only -r esm boxes/typescript.ts",
-    "lint": "eslint '{**/*,*}.{js,jsx,ts,tsx}'"
+    "start": "tsx watch ./src/index.ts"
   },
   "devDependencies": {
-    "@types/node": "^16.10.0",
-    "@typescript-eslint/eslint-plugin": "^4.28.5",
-    "@typescript-eslint/parser": "^4.28.5",
-    "eslint": "^7.32.0",
-    "eslint-config-sqve": "^3.0.4",
-    "eslint-plugin-import": "^2.23.4",
-    "eslint-plugin-node": "^11.0.0",
-    "eslint-plugin-promise": "^5.0.0",
-    "eslint-plugin-react": "^7.24.0",
-    "nodemon": "^2.0.12",
-    "prettier": "^2.3.2",
-    "ts-node-dev": "^1.1.8",
-    "typescript": "^4.3.5"
+    "@types/node": "~20.17.6"
   },
   "dependencies": {
-    "esm": "~3.2.25"
+    "@biomejs/biome": "^1.9.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.6.0"
   }
 }
